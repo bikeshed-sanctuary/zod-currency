@@ -1,0 +1,58 @@
+{
+  "name": "zod-currency",
+  "version": "0.0.0",
+  "description": "Zod extension for currency code validation supporting both fiat currencies and cryptocurrencies",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest --run",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "zod",
+    "zod-extension",
+    "currency",
+    "validation",
+    "fiat",
+    "cryptocurrency",
+    "iso4217",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cryptocurrencies": "^8.0.1",
+    "currency-codes": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.2.2",
+    "vitest": "^1.0.0",
+    "zod": "^4.0.14"
+  },
+  "peerDependencies": {
+    "zod-extend": "^0.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/zod-currency.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/zod-currency/issues"
+  },
+  "homepage": "https://github.com/yourusername/zod-currency#readme"
+}
