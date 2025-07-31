@@ -29,7 +29,7 @@ import createExtendZod from 'zod-extend';
  * });
  * ```
  */
-export function createCurrencySchema(options: CurrencySchemaOptions = {}): z.ZodSchema<string, any, string> {
+export function createCurrencySchema(options: CurrencySchemaOptions = {}) {
   const { provider, message } = options;
   
   // Determine the final provider to use
