@@ -1,6 +1,6 @@
 {
   "name": "zod-currency",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Zod extension for currency code validation supporting both fiat currencies and cryptocurrencies",
   "type": "module",
   "main": "dist/index.js",

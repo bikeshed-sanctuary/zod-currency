@@ -42,4 +42,4 @@ export interface CurrencySchemaOptions {
   message?: string;
 }
 
-export type CurrencySchema = z.ZodSchema<string, any, string>; 
+export type CurrencySchema = z.ZodString; 
